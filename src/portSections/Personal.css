@@ -1,0 +1,10 @@
+.Main {
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(146, 193, 224);
+    height: 100vh;
+    display: flex;
+  }
+  
