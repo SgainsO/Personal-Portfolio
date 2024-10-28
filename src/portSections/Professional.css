@@ -7,4 +7,12 @@
     height: 100vh;
     display: flex;
   }
-  
+
+.Card-Image {
+  width: 100%;
+  height: 60%;
+}
+
+.CardFactors {
+  width: 18rem;
+}
