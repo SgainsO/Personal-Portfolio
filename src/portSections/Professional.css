@@ -16,3 +16,11 @@
 .CardFactors {
   width: 18rem;
 }
+
+.Holder {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  align-items:flex-start;
+  justify-items: space-evenly;
+}
