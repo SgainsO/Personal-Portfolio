@@ -8,14 +8,15 @@ const Card = ({image, title, description, skills}) => {
     return (
         <Paper className="Card" square={false}>
             <div className='PermText'>
-                <h3>{title}</h3>
-                <p className='skill'>{skills}</p>
+                <p style={{marginTop: "1", marginBottom: "0"}}>{title}</p>
             </div>
-
 
             <div className='ImageHolder'>
-                <img className='Image' src={image} alt='Sample Picture'/>
+              <img className='Image' src={image} alt='Sample Picture'/>
             </div>
+
+            <p className='skill' style={{fontSize: "10px"}}><i>{skills}</i></p>
+
 
         </Paper>
     )
@@ -23,3 +24,8 @@ const Card = ({image, title, description, skills}) => {
 
 
 export default Card;
+
+
+/*<div className='ImageHolder'>
+    <img className='Image' src={image} alt='Sample Picture'/>
+</div> */

@@ -8,6 +8,30 @@
   display: flex;
 }
 
+.Content {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.MPS {
+  height: 80vh;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.AMS {
+  height: 80vh;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .Abme-Con {
   width: 70%;
   display: flex;
@@ -19,7 +43,7 @@
 
 .Buttons-Holder {
   width: 40%;
-  height: 40vh;
+  height: 70%;
   justify-content:space-between;
   display: flex;
   flex-direction: column;
